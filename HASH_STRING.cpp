@@ -63,7 +63,7 @@ void print()
 			ptr=h[i].head;
 			while(ptr!=NULL)
 			{
-				cout<<ptr->s<<" "<<ptr->count<<endl;
+				cout<<ptr->s<<" "<<ptr->count<<" "<<endl<<endl;
 				ptr=ptr->next;
 			}
 		}
